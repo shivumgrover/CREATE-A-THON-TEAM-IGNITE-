@@ -1,0 +1,39 @@
+Create-A-Thon
+
+Team Name	         IGNITE
+Team Members	Sakshi Gupta, Manu S Pillai, Lovetesh, Rohit Kumar
+Theme	Healthcare
+
+One line pitch of your idea
+Building an app that takes care of all health-related needs for a person such as a personalized diet plans, monitoring nutrient levels, and posture correction for exercising and doing yoga using augmented reality.
+
+Problems, you are solving 
+Catering to all health-related needs of our user, which can be:
+1.	A personalized diet plan based on their requirements calculated using our algorithm
+2.	Monitoring body levels and progress and making changes in implementation of the diet plan gradually (if necessary).
+3.	Suggesting exercises based on the needs of the user and correction of posture of doing them using Augmented Reality on camera feed
+4.	
+
+Description of Solution/Product provided
+We plan to use a number of parameters to calculate the diet plan for our user.
+1.	Body fat percentage: We can use OpenCV to find out the height and width of a user and we will ask them for their weight. Using this we will calculate their body fat percentage.
+2.	Nutrient deficiencies: A few questions will be asked to determine whether a person is deficient in a specific set of nutrients.
+3.	Heart rate: Some phones have a rate sensor and some don’t. For those that do, we can simply use that to measure the user’s heart rate.
+But for phones that don’t have a heart rate sensor, we can make use of the camera and the light from the flash to illuminate the blood flowing in our fingers and use the level of redness in every frame to calculate the heart rate of the user.
+4.	Weekly body temperature and sugar levels(optional): If the user has access and convenience to a thermometer and sugar level checker, then they can input their body temperatures and sugar levels, say every week, for a more personalized experience.
+5.	Personal preference and allergies: If a user has any personal preferences of food or calorie levels or if they happen to have any allergic reactions from specific foods then they can tell the app that.
+
+We will create a database of different foods and diets and categorize them based on their calorie levels and nutrition levels and based on the parameters entered above, we can provide a personalized diet plan to them.
+
+Another database of exercises will be made and we can provide the user a list of exercises that they may do to be healthier. We will use Augmented Reality to teach them the right way to perform the exercises.
+
+We also plan to help users decide routes to perform running and cycling nearby their houses, based on the pollution levels around them. For example, for someone living in Patel Nagar, the air around Pusa Institute for would be much better due to the large number of trees there compared to the air in Karol Bagh.
+
+Competitors (Put it simply using SWOT Analysis)
+We found apps that do cater to some of the necessary needs of a user regarding their health, but we couldn’t find any that provides with a diet plan as personalized as ours(none that takes body fat, a very important factor, into consideration).
+There were apps that show in video how to perform an exercise but we couldn’t find any that used Augmented Reality for pose estimation and pose correction 
+
+What innovation are you bringing?
+We are using OpenCV to detect the users’ body and estimate their body volume to a high accuracy and then find their body fat percentage.
+We use ML to provide a very personalized diet plan to the user using a number of parameters.
+We use Augmented Reality to Detect and correct the posture of the user doing exercises.
