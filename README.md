@@ -7,4 +7,4 @@ a complete health care app
 3 A virtual doctor chatbot to give solutions (first aid) of common problems
 4 Computer Vision to calculate body fat percentage5 
 5 A map to show the air quality near you and your surrounding area webview.
-6 Posture Detection
+6 Posture Detection.
